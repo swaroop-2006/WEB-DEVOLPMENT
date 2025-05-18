@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body{
+    background-image: url(img.jpg);
+    background-size: cover;
+    
+}
+
 li{
     float: left;
     list-style: none;
@@ -26,3 +32,40 @@ li a:hover {
     background-color: white;
     color:black;
 }
+
+#intro .myname{
+    background-color: beige;
+    padding: 108px;
+    margin: 59px;
+    overflow: auto;
+
+    
+
+}
+
+#intro .introd{
+   float: left;
+    margin-top: 5%;
+    margin-left: 29%;
+    color: white;
+    background-color: black;
+    opacity: 85%;
+    padding: 21px
+}
+
+
+
+#intro .pic{
+    float: left;
+    width: 20%;
+}
+
+#intro .pic img{
+    margin-left: 43px;
+    width: 108%;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+    
+
+   
