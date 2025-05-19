@@ -105,8 +105,10 @@ li a:hover {
 #myskills .skill img{
     width:100%;
     border-radius: 50%;
-     transition: transform;
+    padding: 3%;
+    transition: transform;
     transition-duration: 1s;
+    
 }
    
 
@@ -116,4 +118,34 @@ li a:hover {
 
 #myskills .skill img:hover{
     transform: rotate(360deg);
+}
+
+#potfolio{
+    background-color: beige;
+     overflow: hidden;
+}
+
+#potfolio h1{
+    margin-left: 3%;
+}
+
+#potfolio .projects{
+    width :25%;
+    float: left;
+    margin: 1%;
+   margin-left: 4.1%;
+   padding: 5px;
+   background-color: white;
+   opacity: 89%;
+
+}
+
+#potfolio .projects img{
+    margin-bottom: 10%;
+    width: 100%;
+   
+}
+
+.clear{
+    clear :both;
 }
